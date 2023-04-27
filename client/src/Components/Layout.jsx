@@ -8,7 +8,7 @@ const Layout = ({children}) => {
     <div>
         <Navbar />
         <Rout />
-        <main>
+        <main style={{minHeight:"70vh"}}>
             {children}
         </main>
         <Footer />

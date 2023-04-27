@@ -1,6 +1,8 @@
 import React from 'react'
 import {GiHouse} from "react-icons/gi"
 import {Link} from "react-router-dom"
+import {FaUserAlt} from "react-icons/fa"
+import {MdLocalOffer, MdTravelExplore} from "react-icons/md"
 
 const Navbar = () => {
   return (
@@ -8,15 +10,18 @@ const Navbar = () => {
         <div className="nav-container">
 
           <div style={{marginLeft:"20px"}}>
-              <h5><GiHouse size="35px" color="rgb(51,68,161)" /> FABER & CO
-              <br/> REAL ESTATE</h5>
+              <Link to="/"><h5><GiHouse size="35px" color="rgb(180,220,224)" /> FABER & CO
+              <br/> REAL ESTATE</h5></Link>
           </div>
             
               
             <ul>
-               <Link><li>Login</li></Link> 
-               <Link><li>signup</li></Link>
-               <Link><li>home</li></Link>
+               <Link><li><MdLocalOffer color="rgb(180,220,224)" />
+               <br/>OFFER</li></Link > 
+               <Link><li><MdTravelExplore color="rgb(180,220,224)" />
+               <br/>EXPLORE</li></Link>
+               <Link to="/signin"><li><FaUserAlt color="rgb(180,220,224)" />
+               <br/>PROFILE</li></Link>
             </ul>
           
         </div>

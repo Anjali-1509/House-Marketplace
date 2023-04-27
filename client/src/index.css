@@ -20,7 +20,7 @@
 .nav-container a {
   text-decoration: none;
   color: rgb(51,68,161);
-  font-size: x-large;
+  font-size:20px;
 }
 .nav-container a:hover{
   color: grey;
