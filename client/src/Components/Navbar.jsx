@@ -16,12 +16,15 @@ const Navbar = () => {
             
               
             <ul>
-               <Link><li><MdLocalOffer color="rgb(180,220,224)" />
+               <Link to="/offer"><li><MdLocalOffer color="rgb(180,220,224)" />
                <br/>OFFER</li></Link > 
+
                <Link><li><MdTravelExplore color="rgb(180,220,224)" />
                <br/>EXPLORE</li></Link>
-               <Link to="/signin"><li><FaUserAlt color="rgb(180,220,224)" />
+
+               <Link to="/profile"><li><FaUserAlt color="rgb(180,220,224)" />
                <br/>PROFILE</li></Link>
+
             </ul>
           
         </div>
